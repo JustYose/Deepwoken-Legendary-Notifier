@@ -19,7 +19,7 @@ local Items = {
 }
 local Userinputservice = game:GetService("UserInputService")
 
-local Whitelist = {[3484658446]=true, [3490325571]=true, [2234520373]=true, [939144838]=true, [3021493178]=true, [115608485]=true}
+local Whitelist = {[3484658446]=true, [3021493178]=true, [939144838]=true}
 if Whitelist[game.Players.LocalPlayer.UserId] == nil then
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "Bozo detected",
